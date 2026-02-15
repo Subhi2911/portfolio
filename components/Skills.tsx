@@ -18,7 +18,6 @@ import {
   SiReact,
   SiMongoose,
   SiCplusplus,
-  SiPowers,
   SiFigma,
   SiCanva,
 } from "react-icons/si";
