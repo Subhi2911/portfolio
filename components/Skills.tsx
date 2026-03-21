@@ -24,6 +24,8 @@ import {
     SiTailwindcss
 } from "react-icons/si";
 
+import { BsBootstrap } from "react-icons/bs";
+
 
 export default function Skills() {
     const skillCategories = [
@@ -38,6 +40,7 @@ export default function Skills() {
                 { name: "Next.js", icon: <SiNextdotjs size={28} /> },
                 { name: "React Native", icon: <SiReact size={28} /> },
                 { name: "Tailwind CSS", icon: <SiTailwindcss size={28} /> },
+                { name: "Bootstrap", icon: <BsBootstrap size={28} /> },
             ],
         },
         {
