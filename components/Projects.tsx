@@ -1,5 +1,12 @@
+import { link } from "fs";
+
 export default function Projects() {
   const majorProjects = [
+    {
+      title:"Smart Waste Bin Management System",
+      desc:"IoT-based system for real-time monitoring of waste bins with fill-level sensors, GPS tracking, and automated collection scheduling. Features interactive maps, analytics dashboard, SMS alerts, and staff management using MERN stack with Socket.IO for live updates.",
+      link:"https://github.com/ishankumar2911-commits/NecroCoders_Minor-Project"
+    },
     {
       title: "LilYapper",
       desc: "Real-time chat application with private & group messaging, typing indicators, and notifications using Socket.IO.",
