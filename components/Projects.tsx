@@ -78,38 +78,37 @@ export default function Projects() {
             return (
               <div
                 key={index}
-                className="relative p-10 rounded-3xl
-              bg-white/5 border border-white/10
-              hover:border-blue-400
-              transition-all duration-300
-              hover:scale-105
-              hover:shadow-[0_0_50px_rgba(59,130,246,0.5)]"
+                className="relative p-8 rounded-3xl
+                bg-white/5 border border-white/10
+                hover:border-blue-400
+                transition-all duration-300
+                hover:scale-105"
               >
-                <span className="absolute top-4 right-4 text-xs bg-white /10 text - gray - 400 px - 3 py - 1 rounded - full">
+                <span className="absolute top-4 right-4 text-xs bg-white/10 text-gray-400 px-3 py-1 rounded-full">
                   Minor Project
                 </span>
 
-        <h3 className="text-xl font-semibold mb-4 text-white">
-          {proj.title}
-        </h3>
+                <h3 className="text-xl font-semibold mb-4 text-white">
+                  {proj.title}
+                </h3>
 
-        <p className="text-gray-400 mb-6 leading-7">
-          {proj.desc}
-        </p>
+                <p className="text-gray-400 mb-6 leading-7">
+                  {proj.desc}
+                </p>
 
-        <a
-          href={proj.link}
-          target="_blank"
-          className="text-blue-400 font-medium hover:underline"
-        >
-          View Code →
-        </a>
-      </div>
-      );
+                <a
+                  href={proj.link}
+                  target="_blank"
+                  className="text-blue-400 font-medium hover:underline"
+                >
+                  View Code →
+                </a>
+              </div>
+            );
           })}
-    </div>
+        </div>
 
-      </div >
-    </section >
+      </div>
+    </section>
   );
 }
