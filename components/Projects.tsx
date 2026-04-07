@@ -3,9 +3,9 @@ import { link } from "fs";
 export default function Projects() {
   const majorProjects = [
     {
-      title:"Smart Waste Bin Management System",
-      desc:"IoT-based system for real-time monitoring of waste bins with fill-level sensors, GPS tracking, and automated collection scheduling. Features interactive maps, analytics dashboard, SMS alerts, and staff management using MERN stack with Socket.IO for live updates.",
-      link:"https://github.com/ishankumar2911-commits/NecroCoders_Minor-Project"
+      title: "Smart Waste Bin Management System",
+      desc: "IoT-based system for real-time monitoring of waste bins with fill-level sensors, GPS tracking, and automated collection scheduling. Features interactive maps, analytics dashboard, SMS alerts, and staff management using MERN stack with Socket.IO for live updates.",
+      link: "https://github.com/ishankumar2911-commits/NecroCoders_Minor-Project"
     },
     {
       title: "LilYapper",
@@ -19,11 +19,17 @@ export default function Projects() {
     },
   ];
 
-  const minorProject = {
+  const minorProject = [{
     title: "VibeNest",
     desc: "Secure MERN blog platform with authentication and CRUD operations.",
     link: "https://github.com/Subhi2911/vibenest",
-  };
+  },
+  {
+    title: "NewsDe-Lite",
+    desc: "News aggregation platform with user authentication, personalized feeds, and CRUD operations.",
+    link: "https://github.com/Subhi2911/NewsDe-Lite"
+  },
+  ];
 
   return (
     <section id="projects" className="py-16 px-6">
@@ -70,33 +76,38 @@ export default function Projects() {
 
         {/* Minor Project */}
         <div className="max-w-md mx-auto">
-          <div
-            className="relative p-8 rounded-3xl
-            bg-white/5 border border-white/10
-            hover:border-blue-400
-            transition-all duration-300
-            hover:scale-105"
-          >
-            <span className="absolute top-4 right-4 text-xs bg-white/10 text-gray-400 px-3 py-1 rounded-full">
-              Minor Project
-            </span>
+          {minorProject.map((proj, index) => {
+            return (
+              <div
+                key={index}
+                className="relative p-8 rounded-3xl
+                bg-white/5 border border-white/10
+                hover:border-blue-400
+                transition-all duration-300
+                hover:scale-105"
+              >
+                <span className="absolute top-4 right-4 text-xs bg-white/10 text-gray-400 px-3 py-1 rounded-full">
+                  Minor Project
+                </span>
 
-            <h3 className="text-xl font-semibold mb-4 text-white">
-              {minorProject.title}
-            </h3>
+                <h3 className="text-xl font-semibold mb-4 text-white">
+                  {proj.title}
+                </h3>
 
-            <p className="text-gray-400 mb-6 leading-7">
-              {minorProject.desc}
-            </p>
+                <p className="text-gray-400 mb-6 leading-7">
+                  {proj.desc}
+                </p>
 
-            <a
-              href={minorProject.link}
-              target="_blank"
-              className="text-blue-400 font-medium hover:underline"
-            >
-              View Code →
-            </a>
-          </div>
+                <a
+                  href={proj.link}
+                  target="_blank"
+                  className="text-blue-400 font-medium hover:underline"
+                >
+                  View Code →
+                </a>
+              </div>
+            );
+          })}
         </div>
 
       </div>
