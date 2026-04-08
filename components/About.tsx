@@ -13,7 +13,7 @@ export default function About() {
           <div className="space-y-6">
             <p className="text-gray-400 leading-8 text-lg">
               I&apos;m a B.Tech CSE (UX/UI) student with a strong academic
-              foundation (CGPA: 9.21) and hands-on experience in full stack
+              foundation (CGPA: 9.273) and hands-on experience in full stack
               development.
             </p>
 
@@ -33,7 +33,7 @@ export default function About() {
           <div className="grid grid-cols-2 gap-6">
 
             <div className="bg-white/5 border border-white/10 p-6 rounded-2xl hover:border-blue-400 transition">
-              <p className="text-blue-400 text-2xl font-bold">9.21</p>
+              <p className="text-blue-400 text-2xl font-bold">9.273</p>
               <p className="text-gray-400 text-sm mt-2">CGPA</p>
             </div>
 
