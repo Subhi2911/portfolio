@@ -32,12 +32,12 @@ export default function Hero() {
                     </div>
                     <div className="mt-12 flex gap-12 text-center">
                         <div>
-                            <p className="text-3xl font-bold text-blue-400">2+</p>
+                            <p className="text-3xl font-bold text-blue-400">3+</p>
                             <p className="text-gray-400 text-sm">Major Projects</p>
                         </div>
 
                         <div>
-                            <p className="text-3xl font-bold text-blue-400">9.21</p>
+                            <p className="text-3xl font-bold text-blue-400">9.273</p>
                             <p className="text-gray-400 text-sm">CGPA</p>
                         </div>
 

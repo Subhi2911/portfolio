@@ -66,6 +66,9 @@ export default function Education() {
             <p className="text-gray-400">
               • ACIC VGU Designathon (2024)
             </p>
+            <p className="text-gray-400">
+              • Tech Fusion 3.0 Hackathon (2026)
+            </p>
           </div>
 
         </div>
