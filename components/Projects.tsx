@@ -73,6 +73,7 @@ export default function Projects() {
                 href={proj.link}
                 target="_blank"
                 className="text-blue-400 font-medium hover:underline"
+                onClick={(e) => e.stopPropagation()}
               >
                 View Code →
               </a>
@@ -113,6 +114,7 @@ export default function Projects() {
                   href={proj.link}
                   target="_blank"
                   className="text-blue-400 font-medium hover:underline"
+                  onClick={(e) => e.stopPropagation()}
                 >
                   View Code →
                 </a>
