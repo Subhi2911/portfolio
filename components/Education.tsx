@@ -18,7 +18,7 @@ export default function Education() {
               KR Mangalam University (2024–2028)
             </p>
             <p className="text-blue-400 mt-3 text-lg font-semibold">
-              CGPA: 9.21
+              CGPA: 9.273
             </p>
           </div>
 
