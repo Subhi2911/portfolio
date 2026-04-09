@@ -3,12 +3,14 @@ export default function Projects() {
     {
       title: "Smart Waste Bin Management System",
       desc: "IoT-based system for real-time monitoring of waste bins with fill-level sensors, GPS tracking, and automated collection scheduling. Features interactive maps, analytics dashboard, SMS alerts, and staff management using MERN stack with Socket.IO for live updates.",
-      link: "https://github.com/ishankumar2911-commits/NecroCoders_Minor-Project"
+      link: "https://github.com/ishankumar2911-commits/NecroCoders_Minor-Project",
+      deployed: "https://cleantrack-19jw.onrender.com"
     },
     {
       title: "LilYapper",
       desc: "Real-time chat application with private & group messaging, typing indicators, and notifications using Socket.IO.",
       link: "https://github.com/Subhi2911/LilYapper",
+      deployed: "https://lilyapper.onrender.com"
     },
     {
       title: "Bingo Multiplayer",
@@ -21,6 +23,7 @@ export default function Projects() {
     title: "VibeNest",
     desc: "Secure MERN blog platform with authentication and CRUD operations.",
     link: "https://github.com/Subhi2911/vibenest",
+    deployed: "https://vibenest-publish-your-own-blogs.onrender.com/"
   },
   {
     title: "NewsDe-Lite",
@@ -48,6 +51,11 @@ export default function Projects() {
               transition-all duration-300
               hover:scale-105
               hover:shadow-[0_0_50px_rgba(59,130,246,0.5)]"
+              onClick={() => {
+                if (proj.deployed) {
+                  window.open(proj.deployed, "_blank");
+                }
+              }}
             >
               <span className="absolute top-4 right-4 text-xs bg-blue-500/20 text-blue-400 px-3 py-1 rounded-full">
                 Major Project
@@ -83,6 +91,11 @@ export default function Projects() {
                 hover:border-blue-400
                 transition-all duration-300
                 hover:scale-105"
+                onClick={() => {
+                  if (proj.deployed) {
+                    window.open(proj.deployed, "_blank");
+                  }
+                }}
               >
                 <span className="absolute top-4 right-4 text-xs bg-white/10 text-gray-400 px-3 py-1 rounded-full">
                   Minor Project
