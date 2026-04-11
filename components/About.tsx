@@ -48,8 +48,8 @@ export default function About() {
             </div>
 
             <div className="bg-white/5 border border-white/10 p-6 rounded-2xl hover:border-blue-400 transition">
-              <p className="text-blue-400 text-2xl font-bold">AI-900</p>
-              <p className="text-gray-400 text-sm mt-2">Certified</p>
+              <p className="text-blue-400 text-2xl font-bold">24+</p>
+              <p className="text-gray-400 text-sm mt-2">Tech Stack</p>
             </div>
 
           </div>

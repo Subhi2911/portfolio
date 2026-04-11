@@ -42,8 +42,8 @@ export default function Hero() {
                         </div>
 
                         <div>
-                            <p className="text-3xl font-bold text-blue-400">AI-900</p>
-                            <p className="text-gray-400 text-sm">Certified</p>
+                            <p className="text-3xl font-bold text-blue-400">24+</p>
+                            <p className="text-gray-400 text-sm">Tech Stack</p>
                         </div>
                     </div>
 
