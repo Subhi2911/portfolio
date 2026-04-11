@@ -6,7 +6,7 @@ import { SiUdemy } from "react-icons/si";
 export default function Education() {
   const academics = [
     {
-      title: "B.Tech in Computer Science (FSD)",
+      title: "B.Tech in Computer Science Engineering (UX/UI)",
       institute: "K.R. Mangalam University, Gurugram",
       year: "2024 - 2028",
       score: "9.273 CGPA",
