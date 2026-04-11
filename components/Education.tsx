@@ -13,14 +13,14 @@ export default function Education() {
     },
     {
       title: "CBSE Class XII",
-      institute: "Rao Man Singh SSS, Najafgarh",
-      year: "2023",
+      institute: "Presidency The International School, Alwar",
+      year: "2023 - 2024",
       score: "90.1%",
     },
     {
       title: "CBSE Class X",
-      institute: "Rao Man Singh SSS, Najafgarh",
-      year: "2021",
+      institute: "Presidency The International School, Alwar",
+      year: "2021 - 2022",
       score: "94.2%",
     },
   ];
@@ -39,7 +39,7 @@ export default function Education() {
   ];
 
   const activities = [
-    "Dean’s Honor Award – Semester 1 & 2",
+    "Dean’s Honor Award – Semester 1 , 2 & 3 (2026)",
     "Hack KRMU Hackathon (2024)",
     "ACIC VGU Designathon (2024)",
     "Tech Fusion 3.0 Hackathon (2026)",
