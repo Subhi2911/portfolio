@@ -20,8 +20,8 @@ export default function Contact() {
     }));
   };
 
-  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
+  const handleSubmit = async () => {
+    // e.preventDefault();
     setLoading(true);
     setStatus("");
 
@@ -111,7 +111,7 @@ export default function Contact() {
               Send Me a Message
             </h3>
 
-            <form onSubmit={handleSubmit} className="space-y-6">
+            <form className="space-y-6">
               <div>
                 <label className="block text-left mb-2 text-gray-300">
                   Your Name
@@ -161,6 +161,7 @@ export default function Contact() {
                 type="submit"
                 disabled={loading}
                 className="w-full py-3 rounded-xl bg-blue-500 hover:bg-blue-600 text-white font-semibold transition-all duration-300 hover:scale-[1.02] disabled:opacity-50 disabled:hover:scale-100"
+                onClick={handleSubmit}
               >
                 {loading ? "Sending..." : "Send Message"}
               </button>
